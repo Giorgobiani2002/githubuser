@@ -1,0 +1,275 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(232, 232, 232);
+  font-family: "Space Mono", monospace;
+}
+html {
+  font-size: 10px;
+}
+main {
+  width: 73rem;
+  margin: 0 auto;
+}
+
+.head {
+  width: 73rem;
+  height: 3.8rem;
+  display: flex;
+  margin: 14.4rem auto 3.6rem auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.head button {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.25rem;
+  color: rgba(105, 124, 154, 1);
+}
+.head button img {
+  margin-left: 1.6rem;
+}
+.searchForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchBar {
+  width: 73rem;
+  height: 6.9rem;
+  border-radius: 1.2rem;
+  padding-left: 3rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: rgba(75, 106, 155, 1);
+}
+.btn {
+  width: 10.6rem;
+  height: 5rem;
+  background-color: rgba(0, 121, 255, 1);
+  border: none;
+  border-radius: 1.2rem;
+}
+.mainCard {
+  height: 41rem;
+  background-color: white;
+  border-radius: 1.2rem;
+  margin-top: 2.4rem;
+  display: flex;
+}
+.bitmap {
+  margin: 4.8rem 0rem 0rem 4.8rem;
+  width: 11.7rem;
+  height: 11.7rem;
+}
+.userInfo {
+  margin-left: 3.7rem;
+  margin-top: 4.4rem;
+  width: 50rem;
+}
+.userName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.userName h2 {
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 3.8rem;
+}
+.userName h6 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: rgba(105, 124, 154, 1);
+  margin-left: 5rem;
+}
+.userInfo h6 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  color: rgba(0, 121, 255, 1);
+}
+.userInfo .bio {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  margin-top: 2rem;
+}
+.userInfo2 {
+  width: 48rem;
+  height: 18.5rem;
+  margin-top: 3.2rem;
+}
+.followers {
+  width: 48rem;
+  height: 8.5rem;
+  background-color: rgba(246, 248, 255, 1);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 1.2rem;
+}
+.followers div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.followers div h5 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+  color: rgba(43, 52, 66, 1);
+}
+.info-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pin {
+  width: 1.4rem;
+  height: 2rem;
+  margin-top: 4rem;
+}
+.location {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: rgba(75, 106, 155, 1);
+}
+.twitter {
+  width: 2rem;
+  height: 1.6rem;
+  margin-top: 4rem;
+}
+.twt-link {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: rgba(75, 106, 155, 1);
+}
+.info-list2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.link {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: rgba(75, 106, 155, 1);
+}
+.building {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: rgba(75, 106, 155, 1);
+}
+.dark-mode {
+  background-color: black;
+}
+@media screen and (max-width: 768px) and (min-width: 584px) {
+  html {
+    font-size: 8px;
+  }
+  .userName {
+    flex-direction: column;
+    align-items: normal;
+  }
+  .userInfo h6 {
+    margin-left: 0rem;
+  }
+  .userInfo2 {
+    position: relative;
+    left: -8rem;
+  }
+}
+@media screen and (max-width: 583.9px) and (min-width: 511.2px) {
+  html {
+    font-size: 7px;
+  }
+  .userName {
+    flex-direction: column;
+    align-items: normal;
+  }
+  .userInfo h6 {
+    margin-left: 0rem;
+  }
+  .userInfo2 {
+    position: relative;
+    left: -8rem;
+  }
+  .userInfo .bio {
+    position: relative;
+    top: 3rem;
+    left: -5rem;
+  }
+  .userInfo .bio {
+    margin-top: 0rem;
+  }
+}
+@media screen and (max-width: 511px) {
+  html {
+    font-size: 7px;
+  }
+  .head {
+    width: 32.7rem;
+  }
+  .searchForm {
+    width: 32.7rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn {
+    width: 25.6rem;
+    height: 6rem;
+  }
+  .mainCard {
+    width: 32.7rem;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    height: 66.7rem;
+  }
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.7rem;
+  }
+  .userName {
+    flex-direction: column;
+    align-items: normal;
+  }
+  .userInfo h6 {
+    margin-left: 0rem;
+  }
+  .userInfo {
+    width: 29rem;
+    margin-top: 0rem;
+  }
+  .followers {
+    width: 29rem;
+  }
+  .userInfo2 {
+    width: 30rem;
+  }
+  .twitter {
+    margin-top: 1rem;
+  }
+  .info-list {
+    display: inline;
+  }
+  .info-list2 {
+    display: inline;
+  }
+}

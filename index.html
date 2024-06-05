@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Serif+Display:ital@0;1&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="head">
+        <h1 class="name">DevFinder</h1>
+        <button class="dark">DARK <img src="./moon.svg" alt="" /></button>
+      </div>
+      <form class="searchForm">
+        <input
+          class="searchBar"
+          type="text"
+          placeholder="Search GitHub username…"
+        />
+        <input class="btn" type="submit" value="Search" />
+      </form>
+      <div class="mainCard">
+        <img class="bitmap" src="./Bitmap.png" alt="" />
+        <div class="userInfo">
+          <div class="userName">
+            <h2 class="nickName">The Octocat</h2>
+            <h6 class="joinDate">Joined 25 Jan 2011</h6>
+          </div>
+          <h6 class="nickname2">@octocat</h6>
+          <h5 class="bio">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</h5>
+          <div class="userInfo2">
+            <div class="followers">
+              <div>
+                <h6>Repos</h6>
+                <h5 class="repos">8</h5>
+              </div>
+              <div>
+                <h6>Followers</h6>
+                <h5 class="followersCount">3958</h5>
+              </div>
+              <div>
+                <h6>Following</h6>
+                <h5 class="following">8</h5>
+              </div>
+            </div>
+            <div class="info-list">
+              <div>
+                <img class="pin" src="./003-pin.svg" alt="" />
+                <span class="location">San Francisco</span>
+              </div>
+              <div>
+                <img class="twitter" src="./004-twitter.svg" alt="" />
+                <span class="twt-link">Not Available</span>
+              </div>
+            </div>
+            <div class="info-list2">
+              <div>
+                <img class="url" src="./002-url.svg" alt="" />
+                <span class="link">San Francisco</span>
+              </div>
+              <div>
+                <img class="office" src="./001-office-building.svg" alt="" />
+                <span class="building">Not Available</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
